@@ -109,7 +109,7 @@ export const Title = styled.h2`
 
 export const ContentWrapper = styled.div`
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1r 1fr;
   gap: 4rem;
   align-items: start;
 
@@ -204,6 +204,7 @@ export const PriceColumn = styled.div`
   display: flex;
   justify-content: center;
 
+
   @media (max-width: 1024px) {
     order: -1;
   }
@@ -221,8 +222,9 @@ export const PriceCard = styled.div`
   border: 2px solid #10b981;
   position: sticky;
   top: 2rem;
-  max-width: 350px;
-  width: 100%;
+  /* max-width: 350px; */
+  max-width: 800px !important;
+  width: 100% !important;
   position: relative;
   overflow: hidden;
   /* animation: ${glow} 4s ease-in-out infinite; */

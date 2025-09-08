@@ -38,10 +38,10 @@ function HeroSection() {
         <Container>
           <Header>
             <Logo>
-              <FotoLogo src={logo} alt="Correia Investimentos" loading="lazy" />
+              <FotoLogo src={logo} alt="Estoicismo Financeiro" loading="lazy" />
 
               {/* <CompanyInfo>
-                <CompanyName>Correia Investimentos</CompanyName>
+                <CompanyName>Estoicismo financeiro</CompanyName>
                 <CompanyTagline>
                   Inteligência financeira para o seu patrimônio
                 </CompanyTagline>
@@ -97,7 +97,9 @@ function HeroSection() {
             </VideoContainer>
           </VideoCard>
 
-          <GlobalCTA href="/contato">Quero investir com inteligência</GlobalCTA>
+          <GlobalCTA href="https://pay.hotmart.com/B101104263Y" target="_blank" rel="noopener noreferrer">
+            Quero investir com inteligência
+          </GlobalCTA>
         </Container>
       </HeroContainer>
     </div>

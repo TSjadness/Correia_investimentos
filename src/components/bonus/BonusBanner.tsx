@@ -109,7 +109,13 @@ export default function BonusBanner() {
             ))}
           </FeatureList>
 
-          <GlobalCTA href="/contato">Quero investir!</GlobalCTA>
+          <GlobalCTA
+            href="https://pay.hotmart.com/B101104263Y"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Quero investir!
+          </GlobalCTA>
           {/* 
         <FloatingElement delay="1s" direction="reverse">
           ⭐

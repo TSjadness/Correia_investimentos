@@ -78,7 +78,6 @@ export default function Contato() {
         conhecia: formData.conhecia ? "Sim" : "Não",
       };
 
-      // Simulando envio para jadsonts2012@gmail.com
       const formSubmitData = new FormData();
       Object.entries(payload).forEach(([k, v]) =>
         formSubmitData.append(k, String(v))
@@ -90,7 +89,7 @@ export default function Contato() {
       formSubmitData.append("_template", "table");
 
       const response = await fetch(
-        "https://formsubmit.co/ajax/jadsonts2012@gmail.com",
+        "https://formsubmit.co/ajax/estoicismofinanceiro@gmail.com",
         {
           method: "POST",
           body: formSubmitData,
@@ -100,7 +99,7 @@ export default function Contato() {
       if (response.ok) {
         showToast(
           "success",
-          "Mensagem enviada com sucesso! Verifique seu e-mail."
+          "Mensagem enviada com sucesso!"
         );
 
         // Reset form

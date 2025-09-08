@@ -113,6 +113,7 @@ export const ContentCard = styled.div`
   transform: translateY(50px);
   opacity: 0;
   transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  width: 100%;
 
   &.visible {
     transform: translateY(0);
@@ -149,7 +150,7 @@ export const ImagePlaceholder = styled.div`
   justify-content: center;
   font-size: 4rem;
   color: white;
-  animation: ${pulse} 4s ease-in-out infinite;
+  /* animation: ${pulse} 4s ease-in-out infinite; */
   position: relative;
   overflow: hidden;
 
@@ -166,7 +167,8 @@ export const ImagePlaceholder = styled.div`
       rgba(255, 255, 255, 0.2),
       transparent
     );
-    animation: ${shimmer} 2s infinite;
+    /* animation: ${shimmer} 2s infinite;
+  */
   }
 
   @media (max-width: 768px) {
@@ -190,7 +192,7 @@ export const Description = styled.p`
   line-height: 1.8;
   color: rgba(255, 255, 255, 0.9);
   margin-bottom: 1.5rem;
-
+  text-align: justify;
   &:last-child {
     margin-bottom: 0;
   }

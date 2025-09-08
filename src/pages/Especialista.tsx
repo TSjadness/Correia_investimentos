@@ -53,40 +53,40 @@ function Especialista() {
   const infoSections = [
     {
       icon: <User />,
-      title: "Quem é Gabriel Correia?",
+      title: "Filosofia Estoica",
       content:
-        "Assessor de investimentos sênior na InvestSmart, escritório credenciado à XP, e idealizador do Estoicismo Financeiro. Com mais de 8 anos de experiência, dedico minha carreira a ajudar famílias e empresários a proteger, multiplicar e organizar seu patrimônio.",
+        "A filosofia estoica me acompanha como princípio de vida e como ferramenta para o dinheiro. É ela que me guia na defesa de que o patrimônio não deve ser fonte de ansiedade, mas sim um instrumento de liberdade, legado e realização.",
     },
     {
       icon: <TrendingUp />,
-      title: "Especialização e Experiência",
+      title: "Objetivo",
       content:
-        "Lidero um escritório de investimentos voltado para clientes de alta renda — médicos, advogados, executivos e empreendedores. Especializado em estratégias com IPCA+6, crédito privado e diversificação internacional.",
+        "Meu objetivo neste curso é mostrar como aplicar os fundamentos do estoicismo na sua vida financeira, ajudando você a tomar decisões racionais, blindar seu patrimônio das armadilhas emocionais do mercado e conquistar uma relação madura, simples e sólida com o dinheiro.",
     },
     {
       icon: <Target />,
-      title: "Metodologia e Abordagem",
+      title: "Estoicismo Financeiro",
       content:
-        "Minha abordagem une visão de longo prazo, disciplina e método. Não acredito em atalhos fáceis, nem em fórmulas mágicas. O que funciona é estratégia: alocação inteligente, diversificação e visão global.",
+        "O Estoicismo Financeiro não é sobre ter mais, é sobre ter melhor. É sobre construir riqueza com propósito e serenidade, sem deixar que a euforia ou o medo ditem os rumos do seu futuro.",
     },
-    {
-      icon: <Shield />,
-      title: "Filosofia Estoica",
-      content:
-        "A filosofia estoica me acompanha como princípio de vida e ferramenta financeira. Defendo que o patrimônio deve ser instrumento de liberdade, legado e realização, não fonte de ansiedade.",
-    },
-    {
-      icon: <BookOpen />,
-      title: "Objetivo do Curso",
-      content:
-        "Mostrar como aplicar os fundamentos do estoicismo na sua vida financeira, ajudando você a tomar decisões racionais e conquistar uma relação madura com o dinheiro.",
-    },
-    {
-      icon: <Award />,
-      title: "O Estoicismo Financeiro",
-      content:
-        "Não é sobre ter mais, é sobre ter melhor. É sobre construir riqueza com propósito e serenidade, sem deixar que a euforia ou o medo ditem os rumos do seu futuro.",
-    },
+    // {
+    //   icon: <Shield />,
+    //   title: "Filosofia Estoica",
+    //   content:
+    //     "A filosofia estoica me acompanha como princípio de vida e ferramenta financeira. Defendo que o patrimônio deve ser instrumento de liberdade, legado e realização, não fonte de ansiedade.",
+    // },
+    // {
+    //   icon: <BookOpen />,
+    //   title: "Objetivo do Curso",
+    //   content:
+    //     "Mostrar como aplicar os fundamentos do estoicismo na sua vida financeira, ajudando você a tomar decisões racionais e conquistar uma relação madura com o dinheiro.",
+    // },
+    // {
+    //   icon: <Award />,
+    //   title: "O Estoicismo Financeiro",
+    //   content:
+    //     "Não é sobre ter mais, é sobre ter melhor. É sobre construir riqueza com propósito e serenidade, sem deixar que a euforia ou o medo ditem os rumos do seu futuro.",
+    // },
   ];
 
   return (
@@ -104,15 +104,31 @@ function Especialista() {
             >
               <IntroText>Gabriel Correia</IntroText>
               <Description>
-                <HighlightText>Assessor de investimentos sênior</HighlightText>{" "}
-                com anos de atuação prática no mercado. Especializado em
-                estratégias com IPCA+6, crédito privado e diversificação
-                internacional.
+                Olá! Sou
+                <HighlightText> Gabriel Correia</HighlightText> , assessor de
+                investimentos sênior na InvestSmart, escritório credenciado à
+                XP, e idealizador do Estoicismo Financeiro.
+                <br />
+                Sou assessor há mais de 8 anos e dedico minha carreira a ajudar
+                famílias e empresários a proteger, multiplicar e organizar seu
+                patrimônio. Hoje, lidero um escritório de investimentos voltado
+                para clientes de alta renda — médicos, advogados, executivos e
+                empreendedores que, assim como você, buscam segurança, clareza e
+                estratégia.
               </Description>
+
               <Description>
+                Minha abordagem une visão de longo prazo, disciplina e método.
+                Não acredito em atalhos fáceis, nem em fórmulas mágicas de
+                enriquecimento rápido. O que funciona, de verdade, é estratégia:
+                alocação inteligente, diversificação, visão global e, acima de
+                tudo, cabeça fria para atravessar crises sem perder o rumo.
+              </Description>
+
+              {/* <Description>
                 <strong>Sua missão é simples:</strong> ajudar quem já tem
                 dinheiro a tomar decisões com clareza e método.
-              </Description>
+              </Description> */}
             </ContentCard>
 
             <ImagePlaceholder data-animate>

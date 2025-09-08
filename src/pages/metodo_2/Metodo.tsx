@@ -14,6 +14,7 @@ import {
   GlowEffect,
   TitleGroup,
 } from "./styles";
+import GlobalCTA from "../../components/Button";
 
 export default function Metodo() {
   const [visibleCards, setVisibleCards] = useState(new Set());
@@ -111,6 +112,13 @@ export default function Metodo() {
             </MethodCard>
           ))}
         </ContentGrid>
+        <GlobalCTA
+          href="https://pay.hotmart.com/B101104263Y"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Quero investir!
+        </GlobalCTA>
       </Container>
     </MetodoSection>
   );

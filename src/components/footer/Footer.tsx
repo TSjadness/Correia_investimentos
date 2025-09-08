@@ -16,6 +16,7 @@ import {
   GlowOrb,
   WaveEffect,
 } from "./styles";
+import { Mail, Instagram, Phone } from "lucide-react";
 import logo from "../../images/logo.png";
 
 export const Footer = () => {
@@ -46,14 +47,17 @@ export const Footer = () => {
 
   const socialLinks = [
     {
-      icon: "📧",
-      href: "mailto:contato@correiainvestimentos.com",
+      icon: Mail,
+      href: "mailto:estoicismofinanceiro@gmail.com",
       label: "Email",
     },
-    { icon: "📱", href: "tel:+5511999999999", label: "WhatsApp" },
-    { icon: "🌐", href: "https://linkedin.com/in/correia", label: "LinkedIn" },
     {
-      icon: "📺",
+      icon: Phone,
+      href: "https://wa.me/5521959584301?text=Ol%C3%A1%2C%20vim%20pelo%20seu%20site!",
+      label: "WhatsApp",
+    },
+    {
+      icon: Instagram,
       href: "https://www.instagram.com/gabriel.correia.ofc/",
       label: "Instagram",
     },
@@ -96,7 +100,7 @@ export const Footer = () => {
           <GlowOrb key={i} delay={`${i * 0.5}s`} />
         ))}
       </ParticleEffect>
-{/* 
+      {/* 
       <FloatingElements>
         <span className="float-1">💰</span>
         <span className="float-2">📈</span>
@@ -113,10 +117,10 @@ export const Footer = () => {
             style={{ cursor: "pointer" }}
             aria-label="Ir para a página inicial"
           >
-            <Logo src={logo} alt="Correia Investimentos" loading="lazy" />
+            <Logo src={logo} alt="Estoicismo Financeiro" loading="lazy" />
           </a>
           <BrandText>
-            <strong>Correia Investimentos</strong>
+            <strong>Estoicismo Financeiro</strong>
             <span>Inteligência financeira para o seu patrimônio</span>
           </BrandText>
         </Brand>
@@ -136,7 +140,7 @@ export const Footer = () => {
             </InfoCard>
           ))}
         </InfoGrid> */}
-{/* 
+        {/* 
         <NewsletterSection className={isVisible ? "visible" : ""}>
           <h3>💌 Receba insights exclusivos</h3>
           <p>Estratégias e análises direto no seu email</p>
@@ -162,13 +166,17 @@ export const Footer = () => {
               aria-label={social.label}
               delay={`${0.1 + index * 0.1}s`}
             >
-              {social.icon}
+              {social.icon && React.createElement(social.icon, { size: 24 })}
             </SocialIcon>
           ))}
         </SocialLinks>
 
         <CTAContainer className={isVisible ? "visible" : ""}>
-          <CTAButton href="/contato">
+          <CTAButton
+            href="https://pay.hotmart.com/B101104263Y"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <span>Quero começar agora</span>
           </CTAButton>
         </CTAContainer>

@@ -16,7 +16,7 @@ export const Navbar = () => {
     >
       <Wrap>
         <Brand to="/">
-          <Logo src={logo} alt="Correia Investimentos" loading="lazy" />
+          <Logo src={logo} alt="Estoicismo Financeiro" loading="lazy" />
         </Brand>
 
         <Burger onClick={() => setOpen((v) => !v)}>☰</Burger>

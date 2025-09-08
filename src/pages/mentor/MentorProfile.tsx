@@ -104,22 +104,44 @@ function MentorProfile() {
               className={visibleElements.has("animate-0") ? "visible" : ""}
             >
               <IntroText>Gabriel Correia</IntroText>
+              
               <Description>
+                Olá! Sou
+                <HighlightText> Gabriel Correia</HighlightText> , assessor de
+                investimentos sênior na InvestSmart, escritório credenciado à
+                XP, e idealizador do Estoicismo Financeiro.
+                <br />
+                Sou assessor há mais de 8 anos e dedico minha carreira a ajudar
+                famílias e empresários a proteger, multiplicar e organizar seu
+                patrimônio. Hoje, lidero um escritório de investimentos voltado
+                para clientes de alta renda — médicos, advogados, executivos e
+                empreendedores que, assim como você, buscam segurança, clareza e
+                estratégia.
+              </Description>
+
+              <Description>
+                Minha abordagem une visão de longo prazo, disciplina e método.
+                Não acredito em atalhos fáceis, nem em fórmulas mágicas de
+                enriquecimento rápido. O que funciona, de verdade, é estratégia:
+                alocação inteligente, diversificação, visão global e, acima de
+                tudo, cabeça fria para atravessar crises sem perder o rumo.
+              </Description>
+              {/* <Description>
                 <HighlightText>Assessor de investimentos sênior</HighlightText>{" "}
                 com anos de atuação prática no mercado. Especializado em
                 estratégias com IPCA+6, crédito privado e diversificação
                 internacional.
-              </Description>
-              <Description>
+              </Description> */}
+              {/* <Description>
                 <strong>Sua missão é simples:</strong> ajudar quem já tem
                 dinheiro a tomar decisões com clareza e método.
-              </Description>
+              </Description> */}
             </ContentCard>
 
             <ImagePlaceholder data-animate>
               <AnimatedIcon>
                 {/* <img src={perfil} alt="Perfil de Gabriel Correia"  /> */}
-                <Image src={perfil} alt="Perfil de Gabriel Correia"  />
+                <Image src={perfil} alt="Perfil de Gabriel Correia" />
               </AnimatedIcon>
             </ImagePlaceholder>
           </HeroSection>

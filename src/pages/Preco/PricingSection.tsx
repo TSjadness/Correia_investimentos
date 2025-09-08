@@ -61,7 +61,7 @@ function PricingSection() {
           </TitleGroup>
 
           <ContentWrapper>
-            <BenefitsColumn>
+            {/* <BenefitsColumn>
               <BenefitsList>
                 {benefits.map((benefit, index) => (
                   <BenefitItem key={index}>
@@ -75,16 +75,20 @@ function PricingSection() {
                   </BenefitItem>
                 ))}
               </BenefitsList>
-            </BenefitsColumn>
+            </BenefitsColumn> */}
 
             <PriceColumn>
               <PriceCard>
                 <PriceLabel>Por apenas</PriceLabel>
                 <InstallmentText>12x de</InstallmentText>
-                <PriceValue>R$ 84,73</PriceValue>
-                <PriceInstallments>ou R$ 849,00 à vista</PriceInstallments>
+                <PriceValue>R$ 51,40</PriceValue>
+                <PriceInstallments>ou R$ 497,00 à vista</PriceInstallments>
 
-                <CTAButton>INICIAR MINHA INSCRIÇÃO</CTAButton>
+                <CTAButton>
+                  <a href="https://pay.hotmart.com/B101104263Y" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}>
+                    INICIAR MINHA INSCRIÇÃO
+                  </a>
+                </CTAButton>
 
                 <PaymentMethods>
                   <PaymentIcon>💳</PaymentIcon>

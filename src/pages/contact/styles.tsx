@@ -488,7 +488,7 @@ export const ToastIcon = styled.div`
 
 export const ToastMessage = styled.div`
   flex: 1;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(255, 255, 255, 0.8);
   font-weight: 500;
   line-height: 1.4;
 `;
