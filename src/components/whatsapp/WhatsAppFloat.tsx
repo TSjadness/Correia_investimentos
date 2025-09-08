@@ -24,7 +24,8 @@ export default function WhatsAppFloat() {
     const phoneNumber = "5511999999999";
     const message =
       "Olá! Vim do site e gostaria de saber mais sobre o método de investimento.";
-    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    // const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/5521959584301?text=Ol%C3%A1%2C%20vim%20pelo%20seu%20site!`;
 
     window.open(whatsappUrl, "_blank", "noopener,noreferrer");
   };
