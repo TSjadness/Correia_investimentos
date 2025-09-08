@@ -1,0 +1,9 @@
+{
+  "short_name": "IF",
+  "name": "Intelig\u00eancia Financeira",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0b1210",
+  "background_color": "#0b1210"
+}
