@@ -126,16 +126,6 @@ function MentorProfile() {
                 alocação inteligente, diversificação, visão global e, acima de
                 tudo, cabeça fria para atravessar crises sem perder o rumo.
               </Description>
-              {/* <Description>
-                <HighlightText>Assessor de investimentos sênior</HighlightText>{" "}
-                com anos de atuação prática no mercado. Especializado em
-                estratégias com IPCA+6, crédito privado e diversificação
-                internacional.
-              </Description> */}
-              {/* <Description>
-                <strong>Sua missão é simples:</strong> ajudar quem já tem
-                dinheiro a tomar decisões com clareza e método.
-              </Description> */}
             </ContentCard>
 
             <ImagePlaceholder data-animate>
@@ -146,26 +136,6 @@ function MentorProfile() {
             </ImagePlaceholder>
           </HeroSection>
         </Section>
-
-        {/* {infoSections.map((section, index) => (
-        <Section key={index}>
-          <InfoSection>
-            <InfoCard
-              data-animate
-              direction={index % 2 === 0 ? "left" : "right"}
-              className={
-                visibleElements.has(`animate-${index + 1}`) ? "visible" : ""
-              }
-            >
-              <InfoTitle>
-                <AnimatedIcon>{section.icon}</AnimatedIcon>
-                {section.title}
-              </InfoTitle>
-              <Description>{section.content}</Description>
-            </InfoCard>
-          </InfoSection>
-        </Section>
-      ))} */}
       </Container>
     </div>
   );

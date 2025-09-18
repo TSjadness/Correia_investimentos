@@ -69,24 +69,6 @@ function Especialista() {
       content:
         "O Estoicismo Financeiro não é sobre ter mais, é sobre ter melhor. É sobre construir riqueza com propósito e serenidade, sem deixar que a euforia ou o medo ditem os rumos do seu futuro.",
     },
-    // {
-    //   icon: <Shield />,
-    //   title: "Filosofia Estoica",
-    //   content:
-    //     "A filosofia estoica me acompanha como princípio de vida e ferramenta financeira. Defendo que o patrimônio deve ser instrumento de liberdade, legado e realização, não fonte de ansiedade.",
-    // },
-    // {
-    //   icon: <BookOpen />,
-    //   title: "Objetivo do Curso",
-    //   content:
-    //     "Mostrar como aplicar os fundamentos do estoicismo na sua vida financeira, ajudando você a tomar decisões racionais e conquistar uma relação madura com o dinheiro.",
-    // },
-    // {
-    //   icon: <Award />,
-    //   title: "O Estoicismo Financeiro",
-    //   content:
-    //     "Não é sobre ter mais, é sobre ter melhor. É sobre construir riqueza com propósito e serenidade, sem deixar que a euforia ou o medo ditem os rumos do seu futuro.",
-    // },
   ];
 
   return (
@@ -125,10 +107,7 @@ function Especialista() {
                 tudo, cabeça fria para atravessar crises sem perder o rumo.
               </Description>
 
-              {/* <Description>
-                <strong>Sua missão é simples:</strong> ajudar quem já tem
-                dinheiro a tomar decisões com clareza e método.
-              </Description> */}
+            
             </ContentCard>
 
             <ImagePlaceholder data-animate>
