@@ -147,8 +147,8 @@ export const TestimonialCard = styled.div`
 
 // Imagem do testimonial
 export const TestimonialImage = styled.div`
-  width: 100%;
-  height: 250px;
+  height: max-content;
+  min-height: 400px;
   background: linear-gradient(135deg, #1e293b, #334155);
   border-radius: 12px;
   margin-bottom: 1.5rem;
@@ -305,6 +305,7 @@ export const ImagePlaceholder = styled.div`
 
 // Ícone de verificado
 export const VerifiedBadge = styled.div`
+  z-index: 99;
   position: absolute;
   top: 1rem;
   right: 1rem;
