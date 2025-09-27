@@ -58,7 +58,7 @@ function HeroSection() {
             errar nas decisões
           </Subtitle>
 
-          <VideoCard>
+          {/* <VideoCard>
             <VideoContainer>
               {videoLoaded ? (
                 <VideoEmbed
@@ -95,7 +95,7 @@ function HeroSection() {
                 </VideoPlaceholder>
               )}
             </VideoContainer>
-          </VideoCard>
+          </VideoCard> */}
 
           <GlobalCTA href="https://pay.hotmart.com/B101104263Y" target="_blank" rel="noopener noreferrer">
             Quero investir com inteligência
