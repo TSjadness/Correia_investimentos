@@ -129,30 +129,24 @@ export const ContentCard = styled.div`
 
 export const Image = styled.img`
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
   object-position: center;
-
-  @media (max-width: 768px) {
-    height: 300px;
-    font-size: 3rem;
-  }
+  border-radius: 20px;
 `;
 
 export const ImagePlaceholder = styled.div`
   width: 100%;
-  height: auto;
-
+  min-height: 400px;
+  max-width: 500px;
   background: linear-gradient(135deg, #fbbf24, #f59e0b, #fcd34d);
   border-radius: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 4rem;
-  color: white;
-  /* animation: ${pulse} 4s ease-in-out infinite; */
   position: relative;
   overflow: hidden;
+  flex-shrink: 0;
 
   &::before {
     content: "";
@@ -167,16 +161,18 @@ export const ImagePlaceholder = styled.div`
       rgba(255, 255, 255, 0.2),
       transparent
     );
-    /* animation: ${shimmer} 2s infinite;
-  */
   }
 
   @media (max-width: 768px) {
-    height: 300px;
-    font-size: 3rem;
+    max-width: 100%;
+    min-height: 350px;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 480px) {
+    min-height: 300px;
   }
 `;
-
 export const IntroText = styled.h3`
   font-size: 2rem;
   margin-bottom: 1.5rem;

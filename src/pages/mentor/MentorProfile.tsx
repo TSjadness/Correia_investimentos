@@ -131,7 +131,7 @@ function MentorProfile() {
             <ImagePlaceholder data-animate>
               <AnimatedIcon>
                 {/* <img src={perfil} alt="Perfil de Gabriel Correia"  /> */}
-                <Image src={perfil} alt="Perfil de Gabriel Correia" />
+                <Image src={perfil} alt="Perfil de Gabriel Correia" /> 
               </AnimatedIcon>
             </ImagePlaceholder>
           </HeroSection>
